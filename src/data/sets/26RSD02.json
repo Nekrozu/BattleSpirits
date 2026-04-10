@@ -1,0 +1,148 @@
+[
+  {
+    "id": "26RSD02-001",
+    "name": "Sclouse",
+    "color": "Purple",
+    "cost": 2,
+    "type": "Spirit",
+    "set": "26RSD02",
+    "effect": "[LV2] When Destroyed,\nTarget an opposing Spirit. Send a core, besides Soul Core, from it to the reserve.",
+    "image": "/images/cards/26RSD02/001.jpg"
+  },
+  {
+    "id": "26RSD02-002",
+    "name": "Firalba",
+    "color": "Purple",
+    "cost": 3,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "effect": "[LV2] True Release During Attack, This Spirit gains +2000 BP.",
+    "image": "/images/cards/26RSD02/002.jpg"
+  },
+  {
+    "id": "26RSD02-003",
+    "name": "Medici-Cattery",
+    "color": "Purple",
+    "cost": 3,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/003.jpg"
+  },
+  {
+    "id": "26RSD02-004",
+    "name": "Garsis",
+    "color": "Purple",
+    "cost": 4,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/004.jpg"
+  },
+  {
+    "id": "26RSD02-005",
+    "name": "Boogilugar",
+    "color": "Purple",
+    "cost": 4,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/005.jpg"
+  },
+  {
+    "id": "26RSD02-006",
+    "name": "Ram Toker",
+    "color": "Purple",
+    "cost": 5,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/006.jpg"
+  },
+  {
+    "id": "26RSD02-007",
+    "name": "Lady Lamica",
+    "color": "Purple",
+    "cost": 5,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/007.jpg"
+  },
+  {
+    "id": "26RSD02-008",
+    "name": "Ogrul",
+    "color": "Purple",
+    "cost": 6,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/008.jpg"
+  },
+  {
+    "id": "26RSD02-009",
+    "name": "Utmost Depth: The Bloodrouse Mountain Range",
+    "color": "Purple",
+    "cost": 3,
+    "type": "Nexus",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/009.jpg"
+  },
+  {
+    "id": "26RSD02-010",
+    "name": "The Violet Witherlands",
+    "color": "Purple",
+    "cost": 3,
+    "type": "Nexus",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/010.jpg"
+  },
+  {
+    "id": "26RSD02-011",
+    "name": "Dark Hang",
+    "color": "Purple",
+    "cost": 4,
+    "type": "Magic",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/011.jpg"
+  },
+  {
+    "id": "26RSD02-012",
+    "name": "Blood Sip",
+    "color": "Purple",
+    "cost": 4,
+    "type": "Magic",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/012.jpg"
+  },
+  {
+    "id": "26RSD02-013",
+    "name": "Rainy Poison",
+    "color": "Purple",
+    "cost": 4,
+    "type": "Magic",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/013.jpg"
+  },
+  {
+    "id": "26RSD02-014",
+    "name": "Soul Bite",
+    "color": "Purple",
+    "cost": 6,
+    "type": "Magic",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/014.jpg"
+  },
+{
+    "id": "26RSD02-X01",
+    "name": "The Head Nurse Nephila",
+    "color": "Purple",
+    "cost": 7,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/X01.jpg"
+  },
+  {
+    "id": "26RSD02-X02",
+    "name": "Emperor Perigorouge",
+    "color": "Purple",
+    "cost": 9,
+    "type": "Spirit",
+    "set": "26RSD02", 
+    "image": "/images/cards/26RSD02/X02.jpg"
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "26RSD01-001",
+    "name": "Mushakko",
+    "color": "Red",
+    "cost": 3,
+    "type": "Spirit",
+    "set": "26RSD01",
+    "effect": "[LV2] During Attack,\nAt the end of battle, if your Hand is five or less, draw a card.",
+    "image": "/images/cards/26RSD01/001.jpg"
+  },
+  {
+    "id": "26RSD01-002",
+    "name": "Gen-Bor",
+    "color": "Red",
+    "cost": 3,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "effect": "[LV2] True Release During Attack,\nThis Spirit gains +2000 BP.",
+    "image": "/images/cards/26RSD01/002.jpg"
+  },
+  {
+    "id": "26RSD01-003",
+    "name": "Rowamiku",
+    "color": "Red",
+    "cost": 3,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/003.jpg"
+  },
+  {
+    "id": "26RSD01-004",
+    "name": "Haarier",
+    "color": "Red",
+    "cost": 4,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/004.jpg"
+  },
+  {
+    "id": "26RSD01-005",
+    "name": "Goon-Gata",
+    "color": "Red",
+    "cost": 4,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/005.jpg"
+  },
+  {
+    "id": "26RSD01-006",
+    "name": "Cupell",
+    "color": "Red",
+    "cost": 5,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/006.jpg"
+  },
+  {
+    "id": "26RSD01-007",
+    "name": "Griffar",
+    "color": "Red",
+    "cost": 5,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/007.jpg"
+  },
+  {
+    "id": "26RSD01-008",
+    "name": "Sertarius",
+    "color": "Red",
+    "cost": 6,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/008.jpg"
+  },
+  {
+    "id": "26RSD01-009",
+    "name": "The Flying Ace Reufalx",
+    "color": "Red",
+    "cost": 6,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/009.jpg"
+  },
+  {
+    "id": "26RSD01-010",
+    "name": "Utmost Depth: The Windfang Crag",
+    "color": "Red",
+    "cost": 3,
+    "type": "Nexus",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/010.jpg"
+  },
+  {
+    "id": "26RSD01-011",
+    "name": "The Floating Stone Realm",
+    "color": "Red",
+    "cost": 4,
+    "type": "Nexus",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/011.jpg"
+  },
+  {
+    "id": "26RSD01-012",
+    "name": "Break Claw",
+    "color": "Red",
+    "cost": 3,
+    "type": "Magic",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/012.jpg"
+  },
+  {
+    "id": "26RSD01-013",
+    "name": "Offering Draw",
+    "color": "Red",
+    "cost": 4,
+    "type": "Magic",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/013.jpg"
+  },
+  {
+    "id": "26RSD01-014",
+    "name": "Flame Hurricane",
+    "color": "Red",
+    "cost": 6,
+    "type": "Magic",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/014.jpg"
+  },
+{
+    "id": "26RSD01-X01",
+    "name": "The Flying Scarlet Rensis",
+    "color": "Red",
+    "cost": 7,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/X01.jpg"
+  },
+  {
+    "id": "26RSD01-X02",
+    "name": "The Flying Iron Akurai",
+    "color": "Red",
+    "cost": 7,
+    "type": "Spirit",
+    "set": "26RSD01", 
+    "image": "/images/cards/26RSD01/X02.jpg"
+  }
+]
