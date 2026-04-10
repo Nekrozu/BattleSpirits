@@ -5,6 +5,7 @@
     "color": "Red",
     "cost": 5,
     "type": "Spirit",
+    "set": "ST01", 
     "image": "https://placehold.co/400x560/e11d48/white?text=ST01-001"
   },
   {
@@ -13,6 +14,7 @@
     "color": "White",
     "cost": 3,
     "type": "Spirit",
+    "set": "ST02",
     "image": "https://placehold.co/400x560/94a3b8/white?text=ST02-005"
   }
 ]
