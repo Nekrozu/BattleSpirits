@@ -6,7 +6,7 @@
     "cost": 2,
     "type": "Spirit",
     "set": "26RSD02",
-    "effect": "[LV2] When Destroyed,\nTarget an opposing Spirit. Send a core, besides Soul Core, from it to the reserve.",
+    "effect": "[LV2] [When Destroyed]\nTarget an opposing Spirit. Send a core, besides Soul Core, from it to the Reserve.",
     "image": "/images/cards/26RSD02/001.jpg"
   },
   {
@@ -16,7 +16,7 @@
     "cost": 3,
     "type": "Spirit",
     "set": "26RSD02", 
-    "effect": "[LV2] True Release During Attack, This Spirit gains +2000 BP.",
+    "effect": "[LV1-2] [When Destroyed]\nDraw a card.",
     "image": "/images/cards/26RSD02/002.jpg"
   },
   {
@@ -26,6 +26,7 @@
     "cost": 3,
     "type": "Spirit",
     "set": "26RSD02", 
+    "effect": "[LV2] [True Release] [During Attack]\nThis Spirit gains +3000 BP.",
     "image": "/images/cards/26RSD02/003.jpg"
   },
   {
@@ -34,7 +35,8 @@
     "color": "Purple",
     "cost": 4,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect": "[LV2] [True Release] [When Attacks]\nTarget an opposing Cost 4 or less Spirit. Send a core, besides Soul Core from it to the Reserve.", 
     "image": "/images/cards/26RSD02/004.jpg"
   },
   {
@@ -43,7 +45,8 @@
     "color": "Purple",
     "cost": 4,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect": "",
     "image": "/images/cards/26RSD02/005.jpg"
   },
   {
@@ -52,7 +55,8 @@
     "color": "Purple",
     "cost": 5,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect": "[LV1-2] [When Summoned]\nDraw a card.",
     "image": "/images/cards/26RSD02/006.jpg"
   },
   {
@@ -61,7 +65,8 @@
     "color": "Purple",
     "cost": 5,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[LV1-2] [When Summoned]\nIf you control any exhausted \"Bloodrouse\" family Spirit, target an opposing Spirit. Send a core, besides Soul Core, from it to the Reserve.\n\n[LV2] [True Release] [During Attack]\nThis Spirit gains +2000 BP.",
     "image": "/images/cards/26RSD02/007.jpg"
   },
   {
@@ -70,7 +75,8 @@
     "color": "Purple",
     "cost": 6,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[LV2] [When Attacks]\nTarget an opposing Spirit. Send a core, besides Soul Core, From it to the Reserve.",
     "image": "/images/cards/26RSD02/008.jpg"
   },
   {
@@ -79,7 +85,8 @@
     "color": "Purple",
     "cost": 3,
     "type": "Nexus",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[LV1-2] [Your Attack Step] [Invoke: Flash]\nExhaust this Nexus ▶ Target one of your attacking \"Bloodrouse\" family Spirits. During this battle, it gains +2000 BP.\n\n[LV2] [True Release] [Your Main Step]\nWhen you're summoning any \"Bloodrouse\" family Spirit card, if any opposing Spirit is depleted this turn, this Nexus gains an extra Purple symbol.",
     "image": "/images/cards/26RSD02/009.jpg"
   },
   {
@@ -88,7 +95,8 @@
     "color": "Purple",
     "cost": 3,
     "type": "Nexus",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[LV1-2] [When Deployed]\nTarget an opposing Spirit. Send a core, besides Soul Core, from it to the Reserve.\n\n[LV2] [Invoke: Main]\nDestroy this Nexus ▶ Target an opposing Cost 3 or less Spirit. Send cores from it to the Reserve until one core remains.(The opponent chooses which cores to send.)", 
     "image": "/images/cards/26RSD02/010.jpg"
   },
   {
@@ -98,6 +106,7 @@
     "cost": 4,
     "type": "Magic",
     "set": "26RSD02", 
+    "effect":"[Main]\nTarget one of your \"Bloodrouse\" family Spirits. Destroy it. If you've done so, put a core from the Void to your Reserve.\n\n[Flash]\nTarget one of your Spirits. During this turn, give it +2000 BP.", 
     "image": "/images/cards/26RSD02/011.jpg"
   },
   {
@@ -106,7 +115,8 @@
     "color": "Purple",
     "cost": 4,
     "type": "Magic",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[Flash]\nTarget an opposing Spirit. Send cores from it to the Reserve until one core remains.(The opponent chooses which cores to send.)", 
     "image": "/images/cards/26RSD02/012.jpg"
   },
   {
@@ -116,6 +126,7 @@
     "cost": 4,
     "type": "Magic",
     "set": "26RSD02", 
+    "effect":"[Legacy]\nYou can banish EX Symbols from you Trash for reductions\n\n[Flash]\nTarget one of our Spirits. During this turn, give it +2000 BP. Then, if your Life was reduced this turn, during this turn, your Life can't be reduced by the attacks of opposing Spirits with one core on them.",
     "image": "/images/cards/26RSD02/013.jpg"
   },
   {
@@ -124,16 +135,18 @@
     "color": "Purple",
     "cost": 6,
     "type": "Magic",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[Soul Magic: Purple]\nIf you control any Purple symbol, you can use it with just the Soul Core.\n\n[Flash]\nTarget an opposing Spirit. Send two cores from it to the Reserve. (The opponent chooses which cores to send.)",
     "image": "/images/cards/26RSD02/014.jpg"
   },
 {
     "id": "26RSD02-X01",
-    "name": "The Head Nurse Nephila",
+    "name": "The HeadNurse Nephila",
     "color": "Purple",
     "cost": 7,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[Legacy]\nYou can banish EX Symbols from you Trash for reductions\n\n[LV1-2] [When Summoned]\nTarget an opposing Spirit. Send cores from it to the Reserve until one core remains. (The opponent chooses which cores to send.)\n\n[LV2] [When Attacks]\nTarget an opposing Spirit. Send a core, besides Soul Core, from it to the Reserve. If it depletes, draw a card.",
     "image": "/images/cards/26RSD02/X01.jpg"
   },
   {
@@ -142,7 +155,8 @@
     "color": "Purple",
     "cost": 9,
     "type": "Spirit",
-    "set": "26RSD02", 
+    "set": "26RSD02",
+    "effect":"[Legacy]\nYou can banish EX Symbols from you Trash for reductions\n\n[LV1-2] [When Summoned]\nTarget an opposing Spirit. Send a total of two cores from it to the Reserve. If you control any exhausted \"Bloodrouse\" family Spirit, target up to two Spirits instead. (The opponent chooses which cores to send.)\n\n[LV2] [True Release] [During Attack]\nIf any opposing Spirit is depleted by your effects this turn, this Spirit can't be blocked by opposing Cost 4 or less Spirits.",
     "image": "/images/cards/26RSD02/X02.jpg"
   }
 ]
