@@ -25,8 +25,8 @@ import cards from '../data/cards.js';
           <input type="text" id="searchBox" placeholder="Search by name or ID..." class="bg-zinc-900 border border-zinc-700 px-4 py-2 rounded-full w-full md:w-96 focus:outline-none focus:ring-2 focus:ring-red-600" />
         </div>
         
-        <div class="flex flex-wrap gap-4 items-center">
-          <select id="colorFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300">
+        <div class="flex flex-wrap gap-3 items-center">
+          <select id="colorFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600">
             <option value="all">All Colors</option>
             <option value="red">Red</option>
             <option value="purple">Purple</option>
@@ -36,7 +36,7 @@ import cards from '../data/cards.js';
             <option value="blue">Blue</option>
           </select>
 
-          <select id="setFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300">
+          <select id="setFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600">
             <option value="all">All Sets</option>
             <option value="26rsd01">26RSD01</option>
             <option value="26rsd02">26RSD02</option>
@@ -46,10 +46,11 @@ import cards from '../data/cards.js';
             <option value="26rsd06">26RSD06</option>
           </select>
 
-          <button id="toggleTextBtn" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 px-3 py-1.5 rounded text-sm transition-colors ml-auto">
+          <button id="toggleTextBtn" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 px-3 py-1.5 rounded text-sm transition-colors cursor-pointer text-zinc-200">
             Toggle Text View
           </button>
         </div>
+
       </div>
     </nav>
 
