@@ -25,8 +25,9 @@ import cards from '../data/cards.js';
           <input type="text" id="searchBox" placeholder="Search by name or ID..." class="bg-zinc-900 border border-zinc-700 px-4 py-2 rounded-full w-full md:w-96 focus:outline-none focus:ring-2 focus:ring-red-600" />
         </div>
         
-        <div class="flex flex-wrap gap-3 items-center">
-          <select id="colorFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600">
+        <div class="grid grid-cols-2 md:flex md:flex-row gap-3 w-full">
+          
+          <select id="colorFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600 w-full md:w-auto">
             <option value="all">All Colors</option>
             <option value="red">Red</option>
             <option value="purple">Purple</option>
@@ -36,7 +37,7 @@ import cards from '../data/cards.js';
             <option value="blue">Blue</option>
           </select>
 
-          <select id="setFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600">
+          <select id="setFilter" class="bg-zinc-900 border border-zinc-700 px-3 py-1.5 rounded text-sm text-zinc-300 focus:outline-none focus:ring-1 focus:ring-red-600 w-full md:w-auto">
             <option value="all">All Sets</option>
             <option value="26rsd01">26RSD01</option>
             <option value="26rsd02">26RSD02</option>
@@ -46,9 +47,10 @@ import cards from '../data/cards.js';
             <option value="26rsd06">26RSD06</option>
           </select>
 
-          <button id="toggleTextBtn" class="bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 px-3 py-1.5 rounded text-sm transition-colors cursor-pointer text-zinc-200">
+          <button id="toggleTextBtn" class="col-span-2 md:col-auto w-full md:w-auto bg-zinc-800 hover:bg-zinc-700 border border-zinc-600 px-3 py-1.5 rounded text-sm transition-colors cursor-pointer text-zinc-200">
             Toggle Text View
           </button>
+          
         </div>
 
       </div>
@@ -62,7 +64,9 @@ import cards from '../data/cards.js';
                data-id={card.id.toLowerCase()}
                data-color={card.color.toLowerCase()}
                data-set={card.set ? card.set.toLowerCase() : 'unknown'}
-               data-effect={card.effect || "No effect text available."}> <Card card={card} />
+               data-cost={card.cost} 
+               data-effect={card.effect || "No effect text available."}>
+            <Card card={card} />
           </div>
         ))}
       </div>
@@ -78,9 +82,15 @@ import cards from '../data/cards.js';
         
         <div class="w-full md:w-1/2 p-6 flex flex-col">
           <h2 id="modalName" class="text-2xl font-bold mb-1 text-white">Card Name</h2>
-          <span id="modalId" class="text-sm font-mono text-zinc-400 mb-6 border-b border-zinc-700 pb-2">ID</span>
           
-          <h3 class="text-red-500 font-bold text-xs uppercase tracking-wider mb-2">Card Effect</h3> <p id="modalEffect" class="text-zinc-200 text-sm md:text-base leading-relaxed whitespace-pre-line overflow-y-auto"> Effect text goes here.
+          <div class="flex items-center gap-3 mb-6 border-b border-zinc-700 pb-2">
+            <span id="modalId" class="text-sm font-mono text-zinc-400">ID</span>
+            <span id="modalCost" class="px-2 py-0.5 rounded text-[10px] font-bold uppercase bg-zinc-800 text-white border border-zinc-700">Cost: X</span>
+          </div>
+          
+          <h3 class="text-red-500 font-bold text-xs uppercase tracking-wider mb-2">Card Effect</h3>
+          <p id="modalEffect" class="text-zinc-200 text-sm md:text-base leading-relaxed whitespace-pre-line overflow-y-auto">
+            Effect text goes here.
           </p>
         </div>
       </div>
@@ -130,19 +140,22 @@ import cards from '../data/cards.js';
       const modalImg = document.getElementById('modalImg');
       const modalName = document.getElementById('modalName');
       const modalId = document.getElementById('modalId');
-      const modalEffect = document.getElementById('modalEffect'); // UPDATED VARIABLE
+      const modalEffect = document.getElementById('modalEffect');
+      const modalCost = document.getElementById('modalCost');
 
       cardItems.forEach(item => {
         item.addEventListener('click', () => {
           const imgElement = item.querySelector('img');
           const name = item.getAttribute('data-name');
           const id = item.getAttribute('data-id');
-          const effect = item.getAttribute('data-effect'); // UPDATED VARIABLE
+          const effect = item.getAttribute('data-effect');
+          const cost = item.getAttribute('data-cost');
 
           modalImg.src = imgElement.src;
           modalName.textContent = name.toUpperCase();
           modalId.textContent = id.toUpperCase();
           modalEffect.textContent = effect; // UPDATED VARIABLE
+          modalCost.textContent = `Cost: ${cost}`;
 
           cardModal.classList.remove('hidden');
         });
