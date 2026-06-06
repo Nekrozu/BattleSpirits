@@ -1,148 +1,352 @@
 [
   {
     "id": "26RSD05-001",
-    "name": "Mushakko",
-    "color": "Yellow",
-    "cost": 3,
-    "type": "Spirit",
     "set": "26RSD05",
-    "effect": "[LV2] During Attack, At the end of battle, if your Hand is five or less, draw a card.",
+    "name": "Quill",
+    "type": "Spirit",
+    "color": "Yellow",
+    "cost": 2,
+    "reductions": 1,
+    "symbol": "Yellow Ex",
+    "families": ["Topaz","Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 1000
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "bp": 2000
+      }
+    ],
+    "effect": "[LV2] [When Destroyed]\nYou can target an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/001.jpg"
   },
   {
     "id": "26RSD05-002",
-    "name": "Gen-Bor",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Amaru",
     "type": "Spirit",
-    "set": "26RSD05", 
-    "effect": "[LV2] True Release During Attack, This Spirit gains +2000 BP.",
+    "color": "Yellow",
+    "cost": 3,
+    "reductions": 1,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 2000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 3000
+      }
+    ],
+    "effect": "[LV1-2] [When Summoned]\nYou can reveal three cards from your decktop. Among them, add a \"Thunder Dragon\" family Magic card to the Hand. Return any remaining cards to the deckbottom in any order.",
     "image": "/images/cards/26RSD05/002.jpg"
   },
   {
     "id": "26RSD05-003",
-    "name": "Rowamiku",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Raniraya",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "Yellow",
+    "families": ["Topaz","Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 3000
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "bp": 4000
+      }
+    ],
+    "effect": "[LV1-2] [When Destroyed]\nYou can target an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/003.jpg"
   },
   {
     "id": "26RSD05-004",
-    "name": "Haarier",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Divaes",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 4,
+    "reductions": 2,
+    "symbol": "Yellow Ex",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 4000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1,
+        "bp": 6000
+      }
+    ],
+    "effect": "[LV2] <True Release> [When Attacks]\nTarget an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/004.jpg"
   },
   {
     "id": "26RSD05-005",
-    "name": "Goon-Gata",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Lucance",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 4,
+    "reductions": 3,
+    "symbol": "Yellow Ex",
+    "families": ["Topaz","Thunder Dragon"],
+    "levels": [{
+        "level": 1,
+        "cores": 1,
+        "bp": 5000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 8000
+    }
+    ],
+    "effect": "",
     "image": "/images/cards/26RSD05/005.jpg"
   },
   {
     "id": "26RSD05-006",
-    "name": "Cupell",
+    "set": "26RSD05",
+    "name": "Semarogue",
+    "type": "Spirit",
     "color": "Yellow",
     "cost": 5,
-    "type": "Spirit",
-    "set": "26RSD05", 
+    "reductions": 3,
+    "symbol": "Yellow",
+    "families": ["Topaz","Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 5000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1,
+        "bp": 7000
+      }
+    ],
+    "effect": "[LV1-2] [When Attacks]\nTarget an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.\n\n[LV2] <True Release> [During Attack] [Can't Stack]\nWhen you use a \"Thunder Dragon\" family Magic card, draw a card.",
     "image": "/images/cards/26RSD05/006.jpg"
   },
   {
     "id": "26RSD05-007",
-    "name": "Griffar",
+    "set": "26RSD05",
+    "name": "The SearchingThunder Pelborg",
+    "type": "Spirit",
     "color": "Yellow",
     "cost": 5,
-    "type": "Spirit",
-    "set": "26RSD05", 
+    "reductions": 3,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 3000
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "bp": 4000
+      }
+    ],
+    "effect": "[LV1-2] [When Summoned]\nYou can reveal three cards from your decktop. Among them, add a \"Thunder Dragon\" family card, besides any \"The SearchingThunder Pelborg\", to the Hand. Return any remaining cards to the deckbottom.",
     "image": "/images/cards/26RSD05/007.jpg"
   },
   {
     "id": "26RSD05-008",
-    "name": "Sertarius",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "The CelestialThunderFist Wigil",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 6,
+    "reductions": 3,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 6000
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "soulCore": 1,
+        "bp": 7000
+      }
+    ],
+    "effect": "[LV1-2] [When Summoned]\nYou can target an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.\n\n[LV2] <True Release> [When Attacks]\nYou can target an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/008.jpg"
   },
   {
     "id": "26RSD05-009",
-    "name": "The Flying Ace Reufalx",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "The Thunder Driftways",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 0
+      },
+      {
+        "level": 2,
+        "cores": 3
+      }
+    ],
+    "effect": "[LV1-2] [Your Attack Step]\nAll your \"Thunder Dragon\" family Spirits can't be blocked by opposing 1000 BP or less Spirits.\n\n[LV2] [Start of Your Main Step] [Can't Stack]\nIf you control any exhausted \"Thunder Dragon\" family Spirit, you can target an opposing Spirit. During this turn, give it -2000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/009.jpg"
   },
   {
     "id": "26RSD05-010",
-    "name": "Utmost Depth: The Windfang Crag",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Utmost Depth: The Peaks of Great Thunder Mountain",
     "type": "Nexus",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 4,
+    "reductions": 2,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 0
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1
+      }
+    ],
+    "effect": "[LV1-2] [Start of Opposing Attack Step]\nYou can target a color. During this step, every opposing 1000 BP or less Spirit loses a symbol of that color.\n\n[LV2] <True Release> [Your Attack Step] [Can't Stack • Once Per Turn]\nWhen you destroy any opposing 0 BP Spirit via your Spirit effects, draw a card.",
     "image": "/images/cards/26RSD05/010.jpg"
   },
   {
     "id": "26RSD05-011",
-    "name": "The Floating Stone Realm",
+    "set": "26RSD05",
+    "name": "Fire Pillar",
+    "type": "Magic",
     "color": "Yellow",
-    "cost": 5,
-    "type": "Nexus",
-    "set": "26RSD05", 
+    "cost": 3,
+    "reductions": 2,
+    "families": ["Thunder Dragon"],
+    "effect": "[Main]\nDraw a card.\n\n[Flash]\nTarget an opposing Spirit. During this turn, give it -2000 BP. Then, destroy it if it has 0 BP.",
     "image": "/images/cards/26RSD05/011.jpg"
   },
   {
     "id": "26RSD05-012",
-    "name": "Break Claw",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Rebirth Thunder",
     "type": "Magic",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 3,
+    "reductions": 2,
+    "families": ["Thunder Dragon"],
+    "effect": "When your \"Thunder Dragon\" family Spirits are destroyed, you can return this card from the Trash to your Hand. You can only use this effect of the same card name once per turn.\n\n[Flash]\nTarget an opposing Spirit. During this turn, give it -2000 BP. Then, destroy it if it has 0 BP.",
     "image": "/images/cards/26RSD05/012.jpg"
   },
   {
     "id": "26RSD05-013",
-    "name": "Offering Draw",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "Nestling",
     "type": "Magic",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 4,
+    "reductions": 2,
+    "symbol": "Yellow Ex",
+    "families": ["Thunder Dragon"],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[Main]\nShow up to two \"Thunder Dragon\" family cards from your Hand to the opponent. Return them to the deckbottom in any order. If two cards are returned, draw three cards.\n\n[Flash]\nTarget one of your Spirits. During this turn, give it +3000 BP.",
     "image": "/images/cards/26RSD05/013.jpg"
   },
   {
     "id": "26RSD05-014",
-    "name": "Flame Hurricane",
+    "set": "26RSD05",
+    "name": "Triple Thunder",
+    "type": "Magic",
     "color": "Yellow",
     "cost": 5,
-    "type": "Magic",
-    "set": "26RSD05", 
+    "reductions": 3,
+    "symbol": "Yellow Ex",
+    "families": ["Thunder Dragon"],
+    "effect": "[Soul Magic: Yellow core]\nIf you control any Yellow symbol, you can use it with just the Stan Soul Core.\n\n[Flash]\nTarget an opposing Spirit. During this turn, give it -2000 BP. Then, destroy it if it's 0 BP. These happen three times.",
     "image": "/images/cards/26RSD05/014.jpg"
   },
-{
+  {
     "id": "26RSD05-X01",
-    "name": "The Flying Scarlet Rensis",
-    "color": "Yellow",
-    "cost": 5,
+    "set": "26RSD05",
+    "name": "The EruptingThunder Palecoeurl",
     "type": "Spirit",
-    "set": "26RSD05", 
+    "color": "Yellow",
+    "cost": 7,
+    "reductions": 3,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 8000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 10000
+      }
+    ],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[LV1-2] [During Attack]\nThis Spirit can't be blocked by opposing 4000 BP or less Spirit.\n\n[LV2] [Start of Your Attack Step]\nDuring this turn, give every opposing Spirit -2000 BP. Then, if they have 0 BP, destroy them.",
     "image": "/images/cards/26RSD05/X01.jpg"
   },
   {
     "id": "26RSD05-X02",
-    "name": "The Flying Iron Akurai",
+    "set": "26RSD05",
+    "name": "The SpellThunder Lucnas",
+    "type": "Spirit",
     "color": "Yellow",
     "cost": 7,
-    "type": "Spirit",
-    "set": "26RSD05", 
+    "reductions": 4,
+    "symbol": "Yellow",
+    "families": ["Thunder Dragon"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 7000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1,
+        "bp": 9000
+      }
+    ],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[LV1-2] [When Summoned]\nTarget an opposing Spirit. During this turn, give it -4000 BP. Then, if it has 0 BP, destroy it.\n\n[LV2] <True Release> [When Attacks]\nTarget an opposing Spirit. During this turn, give it -4000 BP. Then, if it has 0 BP, destroy it.",
     "image": "/images/cards/26RSD05/X02.jpg"
   }
 ]

@@ -97,7 +97,7 @@
         "bp": 5000
       }
     ],
-    "effect": "[LV1-2] [Start of Opposing Attack] [Step Can't Stack]\nYou can target an opposing Spirit. It must attack at the start of the step if possible.\n\n[LV2]When you're summoning any Cost 6 or more \"Mineroid\" family Spirit card, this Spirit gains an extra White symbol.",
+    "effect": "[LV1-2] [Start of Opposing Attack] [Step Can't Stack]\nYou can target an opposing Spirit. It must attack at the start of the step if possible.\n\n[LV2]\nWhen you're summoning any Cost 6 or more \"Mineroid\" family Spirit card, this Spirit gains an extra White symbol.",
     "image": "/images/cards/26RSD04/004.jpg"
   },
   {
@@ -220,7 +220,7 @@
         "cores": 2
       }
     ],
-    "effect": "[LV1-2] [Your Main Step]\nWhen you're summoning a Cost 6 or more \"Mineroid\" family Spirit card, this Nexus gains an extra White symbol.\n\n[LV2] [Your End Step]\nYou can target one of your \"Mineroid\" family Spirits. Refresh it.",
+    "effect": "[LV1-2] [Your Main Step]\nWhen you're summoning a Cost 6 or more \"Mineroid\" family Spirit card, this Nexus gains an extra White symbol.\n\n[LV2] [Your End Step]\nYou can target one of your \"Mineroid\" family Spirits. Refresh it.",
     "image": "/images/cards/26RSD04/009.jpg"
   },
   {
