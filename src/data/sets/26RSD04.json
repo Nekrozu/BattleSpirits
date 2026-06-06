@@ -1,148 +1,362 @@
 [
   {
     "id": "26RSD04-001",
-    "name": "Mushakko",
-    "color": "White",
-    "cost": 3,
-    "type": "Spirit",
     "set": "26RSD04",
-    "effect": "[LV2] During Attack, At the end of battle, if your Hand is five or less, draw a card.",
+    "name": "Atun",
+    "type": "Spirit",
+    "color": "White",
+    "cost": 2,
+    "reductions": 1,
+    "symbol": "White Ex",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 1000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1,
+        "bp": 3000
+      }
+    ],
+    "effect": "[LV2] <True Release> [When Blocks]\nTarget an \"Mineroid\" family Nexus you control. Put a core from the Void to it.",
     "image": "/images/cards/26RSD04/001.jpg"
   },
   {
     "id": "26RSD04-002",
-    "name": "Gen-Bor",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Nonril",
     "type": "Spirit",
-    "set": "26RSD04", 
-    "effect": "[LV2] True Release During Attack, This Spirit gains +2000 BP.",
+    "color": "White",
+    "cost": 3,
+    "reductions": 1,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 2000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 3000
+      }
+    ],
+    "effect": "[LV1-2] [When Summoned]\nPut a core from the Void to your Trash.\n\n[LV2][During Block]\nIf you have three or more White symbols, this Spirit gains +5000 BP.",
     "image": "/images/cards/26RSD04/002.jpg"
   },
   {
     "id": "26RSD04-003",
-    "name": "Rowamiku",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Arsinus",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 4,
+    "reductions": 2,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 3000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 5000
+      }
+    ],
+    "effect": "[LV1-2] [Invoke: Main]\nExhaust this Spirit ▶ Reveal two cards from your decktop. Among them, add a Cost 6 or more \"Mineroid\" family Spirit card to the Hand. Return any remaining cards to the deckbottom in any order.",
     "image": "/images/cards/26RSD04/003.jpg"
   },
   {
     "id": "26RSD04-004",
-    "name": "Haarier",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "The HeavyClaw Forclawer",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "White",
+    "families": ["Leucomyst","Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 3000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 5000
+      }
+    ],
+    "effect": "[LV1-2] [Start of Opposing Attack] [Step Can't Stack]\nYou can target an opposing Spirit. It must attack at the start of the step if possible.\n\n[LV2]When you're summoning any Cost 6 or more \"Mineroid\" family Spirit card, this Spirit gains an extra White symbol.",
     "image": "/images/cards/26RSD04/004.jpg"
   },
   {
     "id": "26RSD04-005",
-    "name": "Goon-Gata",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Chimeniruga",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 4,
+    "reductions": 3,
+    "symbol": "White Ex",
+    "families": ["Leucomyst","Mineroid"],
+    "levels": [{
+        "level": 1,
+        "cores": 1,
+        "bp": 5000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 8000
+    }
+    ],
+    "effect": "",
     "image": "/images/cards/26RSD04/005.jpg"
   },
   {
     "id": "26RSD04-006",
-    "name": "Cupell",
+    "set": "26RSD04",
+    "name": "Dabity",
+    "type": "Spirit",
     "color": "White",
     "cost": 5,
-    "type": "Spirit",
-    "set": "26RSD04", 
+    "reductions": 2,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 4000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 6000
+      }
+    ],
+    "effect": "[LV1-2]] [When Summoned]\nTarget a \"Mineroid\" family Spirit you control. Put a core from the Void to it.\n\n[LV2] [During Block]\nThis Spirit gains +2000 BP. ",
     "image": "/images/cards/26RSD04/006.jpg"
   },
   {
     "id": "26RSD04-007",
-    "name": "Griffar",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Junks",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 6,
+    "reductions": 3,
+    "symbol": "White Ex",
+    "families": ["Leucomyst","Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 5000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "soulCore": 1,
+        "bp": 7000
+      }
+    ],
+    "effect": "[LV1-2] [Your End Step]\nThis Spirit can refresh.\n\n[LV2] <True Release> [When Attacks]\nTarget an opposing 4000 BP or less Spirit. Return it to the Hand.",
     "image": "/images/cards/26RSD04/007.jpg"
   },
   {
     "id": "26RSD04-008",
-    "name": "Sertarius",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "The MightyArm Anatoma",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 7,
+    "reductions": 4,
+    "symbol": "White",
+    "families": ["Leucomyst","Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 5000
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "bp": 8000
+      }
+    ],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[LV1-2] [When Summoned]\nTarget an opposing 6000 BP or less Spirit. Return it to the Hand.",
     "image": "/images/cards/26RSD04/008.jpg"
   },
   {
     "id": "26RSD04-009",
-    "name": "The Flying Ace Reufalx",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "The Quarry Plain",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 0
+      },
+      {
+        "level": 2,
+        "cores": 2
+      }
+    ],
+    "effect": "[LV1-2] [Your Main Step]\nWhen you're summoning a Cost 6 or more \"Mineroid\" family Spirit card, this Nexus gains an extra White symbol.\n\n[LV2] [Your End Step]\nYou can target one of your \"Mineroid\" family Spirits. Refresh it.",
     "image": "/images/cards/26RSD04/009.jpg"
   },
   {
     "id": "26RSD04-010",
-    "name": "Utmost Depth: The Windfang Crag",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Utmost Depth: The White Heaven Plain",
     "type": "Nexus",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 0
+      },
+      {
+        "level": 2,
+        "cores": 2,
+        "soulCore": 1
+      }
+    ],
+    "effect": "[LV1-2] [Opposing Attack Step]\nAll your Cost 5 or less \"Mineroid\" family Spirits gain +1000 BP.\n\n[LV2] <True Release> [Your Attack Step]\nWhen only the opposing Spirit is destroyed by comparing BP with your Cost 6 or more \"Mineroid\" family Spirits, target one of your Spirits. Put a core from the Void to it.",
     "image": "/images/cards/26RSD04/010.jpg"
   },
   {
     "id": "26RSD04-011",
-    "name": "The Floating Stone Realm",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "The Menhir Circle",
     "type": "Nexus",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 4,
+    "reductions": 3,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 0
+      },
+      {
+        "level": 2,
+        "cores": 3
+      }
+    ],
+    "effect": "[LV1-2] [When Deployed]\nShow up to two White \"Mineroid\" family cards from your Hand to the opponent. Return them to the deckbottom in any order. For each card returned, draw a card.\n\n[LV2] [Opposing Attack Step] [Invoke: Flash]\nExhaust this Nexus ▶ Target an opposing attacking 3000 BP or less Spirit. Return it to the Hand.",
     "image": "/images/cards/26RSD04/011.jpg"
   },
   {
     "id": "26RSD04-012",
-    "name": "Break Claw",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Rock Drilling",
     "type": "Magic",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 2,
+    "reductions": 1,
+    "families": ["Mineroid"],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[Main]\nShow up to three \"Mineroid\" family cards from your Hand to the opponent. Return them to the deckbottom in any order. For each card returned, draw a card.\n\n[Flash]\nTarget one of your Spirits. During this turn, give it +3000 BP.",
     "image": "/images/cards/26RSD04/012.jpg"
   },
   {
     "id": "26RSD04-013",
-    "name": "Offering Draw",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "Dream Rotor",
     "type": "Magic",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 4,
+    "reductions": 3,
+    "symbol": "White Ex",
+    "families": ["Mineroid"],
+    "effect": "[Flash]\nTarget an opposing 5000 BP or less Spirit. Return it to the Hand.",
     "image": "/images/cards/26RSD04/013.jpg"
   },
   {
     "id": "26RSD04-014",
-    "name": "Flame Hurricane",
+    "set": "26RSD04",
+    "name": "Defensive Gate",
+    "type": "Magic",
     "color": "White",
     "cost": 5,
-    "type": "Magic",
-    "set": "26RSD04", 
+    "reductions": 3,
+    "symbol": "White Ex",
+    "families": ["Mineroid"],
+    "effect": "[Soul Magic]\nIf you control any White symbol, you can use it with just the Soul Core.\n\n[Flash]\nTarget an opposing Spirit. During this turn, your Life can't be reduced by its attack. If your Life was reduced during this turn, change to target two instead.",
     "image": "/images/cards/26RSD04/014.jpg"
   },
-{
+  {
     "id": "26RSD04-X01",
-    "name": "The Flying Scarlet Rensis",
-    "color": "White",
-    "cost": 5,
+    "set": "26RSD04",
+    "name": "The ContinentalShip Matanda",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 8,
+    "reductions": 4,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 9000
+      },
+      {
+        "level": 2,
+        "cores": 4,
+        "soulCore": 1,
+        "bp": 7000
+      }
+    ],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[LV1-2] [Your End Step]\nYou can target up to two \"Mineroid\" family Spirits you control. Refresh them.\n\n[LV2] <True Release> [During Attack]\nThis Spirit can't be blocked by opposing Cost 7 or less Spirits.",
     "image": "/images/cards/26RSD04/X01.jpg"
   },
   {
     "id": "26RSD04-X02",
-    "name": "The Flying Iron Akurai",
-    "color": "White",
-    "cost": 7,
+    "set": "26RSD04",
+    "name": "The TrueGateMinister Savatoma",
     "type": "Spirit",
-    "set": "26RSD04", 
+    "color": "White",
+    "cost": 9,
+    "reductions": 5,
+    "symbol": "White",
+    "families": ["Mineroid"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 10000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 12000
+      }
+    ],
+    "effect": "[Legacy]\nYou can banish EX Symbols from your Trash for reductions.\n\n[LV1-2] [When Summoned]\nTarget an opposing Spirit. Return it to the Hand. If you control any exhausted \"Mineroid\" family Spirit, you can return it to the deckbottom instead.",
     "image": "/images/cards/26RSD04/X02.jpg"
   }
 ]
