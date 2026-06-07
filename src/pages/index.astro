@@ -11,8 +11,8 @@ import cards from '../data/cards.js';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Battle Spirits DB</title>
     <style is:global>
-      /* UPDATED: Looks for .effect-text now */
       #cardGrid.show-text .effect-text { display: block !important; }
+      #cardGrid { grid-auto-rows:1px;}
     </style>
   </head>
   <body class="bg-black text-white min-h-screen">
@@ -58,9 +58,9 @@ import cards from '../data/cards.js';
     </nav>
 
     <main class="max-w-6xl mx-auto p-6">
-      <div id="cardGrid" class="columns-2 sm:columns-3 lg:columns-4 xl:columns-5 gap-6">
+      <div id="cardGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 items-start">
         {cards.map((card) => (
-          <div class="card-item break-inside-avoid mb-6" 
+          <div class="card-item" 
                data-name={card.name.toLowerCase()} 
                data-id={card.id.toLowerCase()}
                data-color={card.color.toLowerCase()}
@@ -98,6 +98,26 @@ import cards from '../data/cards.js';
     </div>
 
     <script>
+      // 0. Masonry Layout Engine
+      function calculateMasonry() {
+        const items = document.querySelectorAll('.card-item');
+        
+        items.forEach(item => {
+          // We only calculate spacing if the card is currently visible
+          if (item.style.display !== 'none') {
+            const cardContent = item.querySelector('.group');
+            if (cardContent) {
+              const contentHeight = cardContent.getBoundingClientRect().height;
+              const rowSpan = Math.ceil(contentHeight + 24);
+              item.style.gridRowEnd = `span ${rowSpan}`;
+            }
+          }
+        });
+      }
+
+      window.addEventListener('load', calculateMasonry);
+      window.addEventListener('resize', calculateMasonry);
+
       // 1. Filter Logic
       const searchBox = document.getElementById('searchBox');
       const colorFilter = document.getElementById('colorFilter');
@@ -121,6 +141,9 @@ import cards from '../data/cards.js';
 
           item.style.display = (matchesText && matchesColor && matchesSet) ? 'block' : 'none';
         });
+        
+        // Recalculate the gaps after filtering cards out
+        calculateMasonry();
       }
 
       searchBox.addEventListener('input', filterCards);
@@ -133,6 +156,9 @@ import cards from '../data/cards.js';
 
       toggleTextBtn.addEventListener('click', () => {
         cardGrid.classList.toggle('show-text');
+        
+        // Recalculate the gaps after the text expands the card heights
+        calculateMasonry();
       });
 
       // 3. Modal Click Logic
@@ -155,7 +181,7 @@ import cards from '../data/cards.js';
           modalImg.src = imgElement.src;
           modalName.textContent = name.toUpperCase();
           modalId.textContent = id.toUpperCase();
-          modalEffect.textContent = effect; // UPDATED VARIABLE
+          modalEffect.textContent = effect; 
           modalCost.textContent = `Cost: ${cost}`;
 
           cardModal.classList.remove('hidden');
