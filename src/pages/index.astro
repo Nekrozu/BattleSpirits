@@ -58,9 +58,9 @@ import cards from '../data/cards.js';
     </nav>
 
     <main class="max-w-6xl mx-auto p-6">
-      <div id="cardGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <div id="cardGrid" class="columns-2 sm:columns-3 lg:columns-4 xl:columns-5 gap-6">
         {cards.map((card) => (
-          <div class="card-item" 
+          <div class="card-item break-inside-avoid mb-6" 
                data-name={card.name.toLowerCase()} 
                data-id={card.id.toLowerCase()}
                data-color={card.color.toLowerCase()}
