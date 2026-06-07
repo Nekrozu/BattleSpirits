@@ -1,0 +1,52 @@
+[
+  {
+    "id": "26RBS01-001",
+    "set": "26RBS01",
+    "name": "Petristar",
+    "type": "Spirit",
+    "color": "Red",
+    "cost": 3,
+    "reductions": 1,
+    "symbol": "Red",
+    "families": ["Red Cloud","Windflame"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 2000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 5000
+      }
+    ],
+    "effect": "[LV1-2] [When Destroyed]\nTarget an opposing 4000 BP or less Spirit. Destroy it.",
+    "image": "/images/cards/26RBS01/001.jpg"
+  },
+  {
+    "id": "26RBS01-002",
+    "set": "26RBS01",
+    "name": "Sun Spawn",
+    "type": "Spirit",
+    "color": "Red",
+    "cost": 3,
+    "reductions": 2,
+    "symbol": "Red Ex",
+    "families": ["Red Cloud","Windflame"],
+    "levels": [
+      {
+        "level": 1,
+        "cores": 1,
+        "bp": 3000
+      },
+      {
+        "level": 2,
+        "cores": 3,
+        "bp": 5000
+      }
+    ],
+    "effect": "[LV1-2] [Clash] [During Attack]\nOpposing Spirits must block if possible.",
+    "image": "/images/cards/26RBS01/001.jpg"
+  }
+]

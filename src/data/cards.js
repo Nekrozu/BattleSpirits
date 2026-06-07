@@ -23,13 +23,13 @@ const allCards = [
   ...thunderDragonOfTheRadiantSun,
   ...ferobeastOfTheAzureAbyss,
   ...kamenRider_AgentOfDream,
-  ...symphonyOfTheBeginning,
-  ...thePurgatoryPheonixOfAwakening,
-  ...theAberrantWhaleOfAbyss,
+  //...symphonyOfTheBeginning,
+  //...thePurgatoryPheonixOfAwakening,
+  //...theAberrantWhaleOfAbyss,
 
   ...theGenesisPulse,
-  ...theIllusoryWinds,
-  ...theRulerOfZekkai
+  //...theIllusoryWinds,
+  //...theRulerOfZekkai
 
 
 ];
